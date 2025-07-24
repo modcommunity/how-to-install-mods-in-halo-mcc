@@ -133,7 +133,7 @@ In most cases, *Ask when starting the game* is selected by default and you'll ju
 ## Conclusion
 By now, you should have a basic understanding in downloading and installing mods through Halo: MCC. We've also went through using Steam Workshop, using Vortex, and using manual installations.
 
-Modding Halo: MCC opens the door to custom campaigns, visual enhancements, and community maps—just remember to keep it offline!
+Modding Halo: MCC opens the door to custom campaigns, visual enhancements, and community maps. Just remember to keep it offline!
 
 ## See Also
 * [Nexus Mods - Halo: MCC](https://www.nexusmods.com/halothemasterchiefcollection)
