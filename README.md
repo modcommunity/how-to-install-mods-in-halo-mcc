@@ -163,3 +163,5 @@ Modding Halo: MCC opens the door to custom campaigns, visual enhancements, and c
 * [Steam - Halo: MCC](https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/)
 * [ModDB - MCC](https://www.moddb.com/games/halo-the-master-chief-collection)
 * [Halo Mods Discord](https://discord.com/invite/halo)
+
+This guide will be updated and improved on over time. If you see any improvements that can be made, please feel free to reach out!
