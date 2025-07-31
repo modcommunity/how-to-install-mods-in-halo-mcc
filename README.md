@@ -1,14 +1,10 @@
-<div align="center">
-
-![banner|800x300](./images/banner.png)
-
-</div>
-
 A guide on how to **install mods** in **Halo: The Master Chief Collection (MCC)** on PC.
 
 That said, we've included instructions on how to use the [Steam Workshop](https://steamcommunity.com/workshop/) along with mod managers like [Vortex](https://www.nexusmods.com/about/vortex/) and trusted mod websites like [Nexus Mods](https://www.nexusmods.com/halothemasterchiefcollection).
 
 This guide is focused on **Windows users**, but some concepts may apply to Linux users running MCC through [Steam Proton](https://www.protondb.com/). Halo: MCC mods generally **do work** on Linux (some adjustments may be needed depending on the mod).
+
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-download-install-mods-in-halo-mcc/)
 
 Whether you're looking to add custom campaigns, enhance visuals, or play community-made multiplayer maps, this guide will walk you through downloading and installing mods for Halo: MCC!
 
