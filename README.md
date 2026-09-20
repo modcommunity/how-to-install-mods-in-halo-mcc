@@ -21,6 +21,7 @@ For the examples we'll install [The Backrooms](https://steamcommunity.com/shared
 * [Installing Mods Through The Steam Workshop](#installing-mods-through-the-steam-workshop)
     * [Finding The Workshop](#finding-the-workshop)
     * [Subscribing To A Mod](#subscribing-to-a-mod)
+    * [Finding The Mod In-Game](#finding-the-mod-in-game)
     * [Managing Your Workshop Mods](#managing-your-workshop-mods)
 * [Installing Mods Through Vortex](#installing-mods-through-vortex)
     * [Managing MCC In Vortex](#managing-mcc-in-vortex)
@@ -153,9 +154,42 @@ Open a mod page and read it properly before you click anything.
 2. **Game and mode**: **Engine: Halo1** and **Game Content: Campaign**. This mod is a Halo CE campaign mod, so that's where you'll find it in-game.
 3. **DLC you must own**: **Halo: Combat Evolved Anniversary**. Workshop mods list their required DLC here and you genuinely need to own it.
 
-Then launch the game with **anti-cheat disabled**, and follow whatever the mod's own description says about where to find it. For a campaign mod like this one, that usually means the campaign mission select.
-
 **NOTE** - Subscribed mods download whether or not anti-cheat is disabled. It's only *loading* them that requires the anti-cheat-disabled launch option.
+
+### Finding The Mod In-Game
+This is the part nobody explains, so here it is in full. Launch with **anti-cheat disabled** and you'll land on the main menu.
+
+![The MCC Main Menu](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_main_menu.png)
+
+1. **Campaign mods live under Campaigns**: Not under Extras, not in a separate mods menu. A campaign mod pretends to be a campaign, so that's where it turns up.
+
+Pick the game the mod targets. Remember the Workshop page told us this one is **Engine: Halo1**, which is Halo: CE Anniversary.
+
+![The Campaign List In MCC](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_campaign_list.png)
+
+1. **Pick the game the mod was built for**: **HALO: CE ANNIVERSARY**. If you pick the wrong game here, your mod simply won't be in the next list and it'll look like it never installed.
+
+Here's the bit that makes it click.
+
+![The Built In And Modded Campaign List](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_mod_list.png)
+
+1. **The unmodded campaign**: **BUILT IN** is the normal Halo: CE Anniversary campaign.
+2. **Your subscribed Workshop mod**: **The Backrooms**, sitting right underneath it as a separate campaign.
+
+This list only appears when you have at least one campaign mod installed for that game. On a clean install you go straight past it, which is why it's easy to miss that it exists at all.
+
+Select the mod and you get the same options you'd get for a real campaign.
+
+![Starting A Workshop Campaign Mod](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_mod_start.png)
+
+1. **Start the mod from the beginning**: **QUICKSTART**.
+2. **Or jump to a specific mission**: **MISSIONS**, for mods with more than one.
+
+And that's it - the mod loads like any other campaign.
+
+![The Backrooms Running In Halo CE](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_backrooms.jpg)
+
+**TIP** - Multiplayer and Firefight mods work the same way but appear elsewhere: you'll find them in the map list when you host a **Custom Game** rather than in the campaign menu.
 
 ### Managing Your Workshop Mods
 Right-click the game in Steam, open **Properties**, and pick **Workshop** in the sidebar.
@@ -339,7 +373,19 @@ Launch with anti-cheat disabled, then look in the place the mod's description te
 * **Workshop multiplayer/Firefight maps** appear in the map list when you host a custom game.
 * **Manual and Nexus campaign mods** replace the existing missions, so you launch the normal campaign and the content is different.
 
-For our two examples: The Backrooms shows up as a Halo CE campaign entry, and Halo Campaign Massive Mod replaces the Halo CE campaign in place - start mission 1 and there are far more enemies than there should be.
+For our two examples, the behaviour is completely different, and that difference is worth understanding.
+
+**The Backrooms** is a Workshop mod, so it appears as its own campaign entry alongside the built-in one - see [Finding The Mod In-Game](#finding-the-mod-in-game) above.
+
+**Halo Campaign Massive Mod** replaces the Halo CE campaign files in place, so there's no new menu entry at all. You launch the normal campaign and the missions themselves are different.
+
+![Halo Campaign Massive Mod On The Silent Cartographer](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_massive_mod.jpg)
+
+That's *The Silent Cartographer* with the mod installed. The beach landing is an actual island-wide invasion with a rocket launcher in your hands and a dozen marines fighting alongside you, where vanilla gives you a handful.
+
+![More Of The Massive Mod's Beach Assault](https://github.com/modcommunity/how-to-install-mods-in-halo-mcc/raw/main/images/ingame_massive_mod_2.jpg)
+
+If a replacement mod like this one is working, you'll know within about thirty seconds of starting a mission. If the missions look normal, it isn't loaded.
 
 If nothing changed, work through the following.
 
